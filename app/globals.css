@@ -142,7 +142,7 @@ body {
   -webkit-user-select: none;
 }
 
-.toolbar[data-theme="dark"] {
+.toolbar[data-theme='dark'] {
   color: #fff;
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -215,7 +215,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 80px;
-  font-family: "color-emoji";
+  font-family: 'color-emoji';
   line-height: 1;
 }
 
@@ -223,7 +223,9 @@ body {
   position: absolute;
   inset: 8px;
   border: 3px solid #fff;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 12px rgba(0, 0, 0, 0.35);
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.1),
+    0 4px 12px rgba(0, 0, 0, 0.35);
 }
 
 .desktopItem:focus {
@@ -241,12 +243,11 @@ body {
     row-gap: 12px;
     column-gap: 8px;
   }
-  
+
   .icon {
     width: 48px;
   }
 
-  
   .statusIcon {
     font-size: 48px;
   }
@@ -301,7 +302,7 @@ body {
 }
 
 .fileList li:nth-child(even) {
-  background-color: #F4F5F5;
+  background-color: #f4f5f5;
 }
 
 .fileList li.focused {
@@ -356,7 +357,6 @@ body {
 
 /* End Folder */
 
-
 /* Media */
 
 .fullScreenMedia {
@@ -398,7 +398,7 @@ body {
 }
 
 .note p:not(:last-child),
-.note ul:not(:last-child), 
+.note ul:not(:last-child),
 .note ol:not(:last-child) {
   margin-bottom: calc(16px * 1.6);
 }
@@ -483,7 +483,7 @@ body {
 }
 
 .note p:not(:last-child),
-.note ul:not(:last-child), 
+.note ul:not(:last-child),
 .note ol:not(:last-child) {
   margin-bottom: calc(16px * 1.6);
 }
@@ -588,7 +588,7 @@ body {
   width: 24px;
 }
 
-.soundtrack[data-theme="dark"] .playerButton {
+.soundtrack[data-theme='dark'] .playerButton {
   background-color: rgba(0, 0, 0, 0.35);
 }
 
@@ -599,30 +599,30 @@ body {
     -webkit-backdrop-filter: blur(10px) saturate(3) opacity(0);
     transition: all 0.2s ease;
   }
-  
-  .soundtrack[data-theme="dark"] .playerButton {
+
+  .soundtrack[data-theme='dark'] .playerButton {
     background-color: rgba(0, 0, 0, 0);
   }
-  
+
   .soundtrack:hover .playerButton,
-  .soundtrack[data-paused="true"] .playerButton {
+  .soundtrack[data-paused='true'] .playerButton {
     background-color: rgba(255, 255, 255, 0.35);
     backdrop-filter: blur(10px) saturate(3) opacity(1);
     -webkit-backdrop-filter: blur(10px) saturate(3) opacity(1);
   }
 
-  .soundtrack[data-theme="dark"]:hover .playerButton,
-  .soundtrack[data-theme="dark"][data-paused="true"] .playerButton {
+  .soundtrack[data-theme='dark']:hover .playerButton,
+  .soundtrack[data-theme='dark'][data-paused='true'] .playerButton {
     background-color: rgba(0, 0, 0, 0.35);
   }
-  
+
   .playerButton svg {
     opacity: 0;
     transition: all 0.2s ease;
   }
-  
+
   .soundtrack:hover .playerButton svg,
-  .soundtrack[data-paused="true"] .playerButton  svg {
+  .soundtrack[data-paused='true'] .playerButton svg {
     opacity: 1;
   }
 }
@@ -631,7 +631,7 @@ body {
   background-color: rgba(255, 255, 255, 0.5) !important;
 }
 
-.soundtrack[data-theme="dark"] .playerButton:active {
+.soundtrack[data-theme='dark'] .playerButton:active {
   background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
@@ -688,11 +688,8 @@ body {
 
 @font-face {
   font-display: swap;
-  font-family: "color-emoji";
-  src: local("Apple Color Emoji"),
-       local("Segoe UI Emoji"),
-       local("Segoe UI Symbol"),
-       local("Noto Color Emoji");
+  font-family: 'color-emoji';
+  src: local('Apple Color Emoji'), local('Segoe UI Emoji'), local('Segoe UI Symbol'), local('Noto Color Emoji');
 }
 
 :root {
@@ -703,9 +700,9 @@ body {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   font-size: 13.5px;
-  line-height:  1.6;
+  line-height: 1.6;
   font-weight: 500;
   background-color: var(--background-color);
   color: var(--color);
@@ -714,7 +711,9 @@ body {
   text-size-adjust: none;
 }
 
-body, html, #root {
+body,
+html,
+#root {
   overflow: hidden;
   width: 100%;
   height: 100%;
@@ -757,7 +756,9 @@ body, html, #root {
   inset: 6px;
   background-color: white;
   border-radius: 8px;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 12px rgba(0, 0, 0, 0.25);
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.1),
+    0 4px 12px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
   z-index: 1;
@@ -765,12 +766,14 @@ body, html, #root {
   -webkit-user-select: none;
 }
 
-.window[data-type="status"] {
+.window[data-type='status'] {
   border-radius: 0;
 }
 
 .windowWrap:focus-within .window {
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 18px 36px rgba(0, 0, 0, 0.45);
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.1),
+    0 18px 36px rgba(0, 0, 0, 0.45);
 }
 
 .windowHeader {
@@ -791,18 +794,18 @@ body, html, #root {
   background-color: #f0f0f0;
 }
 
-.window[data-type="experience"] .windowHeader,
-.window[data-type="about"] .windowHeader {
+.window[data-type='experience'] .windowHeader,
+.window[data-type='about'] .windowHeader {
   background-color: #fff !important;
   box-shadow: none !important;
 }
 
-.window[data-type="soundtrack"] .windowHeader {
+.window[data-type='soundtrack'] .windowHeader {
   display: none;
 }
 
-.window[data-type="soundtrack"] .trafficLights button:nth-child(1),
-.windowWrap:focus-within .window[data-type="soundtrack"] .trafficLights button:nth-child(1) {
+.window[data-type='soundtrack'] .trafficLights button:nth-child(1),
+.windowWrap:focus-within .window[data-type='soundtrack'] .trafficLights button:nth-child(1) {
   background-color: rgba(117, 117, 117, 0.5);
   backdrop-filter: blur(5px) saturate(3);
   width: 16px;
@@ -810,23 +813,23 @@ body, html, #root {
   border: none;
 }
 
-.windowWrap:focus-within .window[data-type="soundtrack"] .trafficLights button:nth-child(1):active {
+.windowWrap:focus-within .window[data-type='soundtrack'] .trafficLights button:nth-child(1):active {
   background-color: rgba(117, 117, 117, 0.75);
 }
 
-.window[data-type="experience"][data-scrolled="true"] .windowHeader {
+.window[data-type='experience'][data-scrolled='true'] .windowHeader {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05) !important;
 }
 
-.window[data-type="status"] .windowHeader,
-.windowWrap:focus-within .window[data-type="status"] .windowHeader{
+.window[data-type='status'] .windowHeader,
+.windowWrap:focus-within .window[data-type='status'] .windowHeader {
   height: 16px;
   padding: 0 4px;
   background-color: rgb(251, 235, 97);
   box-shadow: none;
 }
 
-.window[data-type="status"] .trafficLights button {
+.window[data-type='status'] .trafficLights button {
   width: 8px;
   height: 8px;
   border-radius: 0;
@@ -834,17 +837,17 @@ body, html, #root {
   border: 1px solid rgb(216, 197, 66) !important;
 }
 
-.window[data-type="status"] .trafficLights button svg {
+.window[data-type='status'] .trafficLights button svg {
   display: none !important;
 }
 
-.window[data-type="status"] .trafficLights button:active {
+.window[data-type='status'] .trafficLights button:active {
   background-color: rgb(216, 197, 66) !important;
 }
 
-.window[data-type="status"] .trafficLights button:nth-child(2),
-.window[data-type="status"] .trafficLights button:nth-child(3),
-.window[data-type="status"] .title {
+.window[data-type='status'] .trafficLights button:nth-child(2),
+.window[data-type='status'] .trafficLights button:nth-child(3),
+.window[data-type='status'] .title {
   display: none !important;
 }
 
@@ -898,12 +901,12 @@ body, html, #root {
 }
 
 .windowWrap:focus-within .window .trafficLights button:nth-child(2):active,
-.trafficLights:hover button:nth-child(2):active{
+.trafficLights:hover button:nth-child(2):active {
   background-color: #bf8e22;
 }
 
 .windowWrap:focus-within .window .trafficLights button:nth-child(3),
-.trafficLights:hover button:nth-child(3){
+.trafficLights:hover button:nth-child(3) {
   background-color: #28c941;
 }
 

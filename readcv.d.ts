@@ -1,5 +1,5 @@
-declare module "readcv" {
-  import * as React from "react";
+declare module 'readcv' {
+  import * as React from 'react';
 
   // Ghi đè: Cho RichText bất chấp React version
   export interface RichTextProps {

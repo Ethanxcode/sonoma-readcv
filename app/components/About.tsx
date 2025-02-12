@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import React, { FC } from 'react';
 import cv from '../cv';
 import { RichText } from 'readcv';
 import Image from 'next/image';
@@ -6,14 +6,14 @@ interface AboutProps {
   // Tuỳ ý định nghĩa thêm nếu muốn
 }
 
-const About: FC<AboutProps> = (props) => {
+const About: FC<AboutProps> = props => {
   return (
     <div className="about">
       <div className="aboutContent">
         <div className="aboutHeader">
           <div className="pfp">
             {/* <img src={cv.general.profilePhoto} /> */}
-						<Image src={cv.general.profilePhoto} alt="Profile Photo" width={100} height={100} />
+            <Image src={cv.general.profilePhoto} alt="Profile Photo" width={100} height={100} />
           </div>
           <div>
             <h2>{cv.general.displayName}</h2>
@@ -56,4 +56,4 @@ const About: FC<AboutProps> = (props) => {
   );
 };
 
-export default About
+export default About;

@@ -1,22 +1,9 @@
 // cv.ts
 
-import profileData from "../public/content/profileData.json";
+import profileData from '../public/content/profileData.json';
 
 // Xác định các section có thể có trong CV (có thể mở rộng / thay đổi tuỳ data thật)
-const Tabs: string[] = [
-  "Projects",
-  "Side Projects",
-  "Exhibitions",
-  "Speaking",
-  "Writing",
-  "Awards",
-  "Features",
-  "Work Experience",
-  "Volunteering",
-  "Education",
-  "Certifications",
-  "Contact",
-];
+const Tabs: string[] = ['Projects', 'Side Projects', 'Exhibitions', 'Speaking', 'Writing', 'Awards', 'Features', 'Work Experience', 'Volunteering', 'Education', 'Certifications', 'Contact'];
 
 // Interface cho dữ liệu từ profileData.json (bạn có thể chi tiết hoá hoặc bổ sung tuỳ ý)
 interface ProfileData {
@@ -38,7 +25,7 @@ interface ProfileData {
   education?: any[];
   certifications?: any[];
   contact?: any[];
-  [key: string]: any; 
+  [key: string]: any;
 }
 
 // Giả lập type cho phần Media
@@ -48,7 +35,7 @@ interface MediaProps {
   height?: number;
 }
 
-// Tạo class quản lý các object media 
+// Tạo class quản lý các object media
 class CVMediaObject {
   url: string;
   width?: number;
@@ -65,75 +52,75 @@ class CVMediaObject {
   }
 }
 
-// Xác định kiểu cho record các file media, 
+// Xác định kiểu cho record các file media,
 // key là string, value có ít nhất trường `url` và có thể kèm `width, height`.
 const mediaFiles: Record<string, MediaProps> = {
-  "backdrop.jpg": {
-    url: "/mediaManager/backdrop.jpg",
+  'backdrop.jpg': {
+    url: '/mediaManager/backdrop.jpg',
     width: 3508,
     height: 2480,
   },
-  "contact.png": {
-    url: "/mediaManager/contact.png",
+  'contact.png': {
+    url: '/mediaManager/contact.png',
     width: 1024,
     height: 1024,
   },
-  "document.png": {
-    url: "/mediaManager/document.png",
+  'document.png': {
+    url: '/mediaManager/document.png',
     width: 32,
     height: 32,
   },
-  "folder.png": {
-    url: "/mediaManager/folder.png",
+  'folder.png': {
+    url: '/mediaManager/folder.png',
     width: 1024,
     height: 1024,
   },
-  "listen.png": {
-    url: "/mediaManager/listen.png",
+  'listen.png': {
+    url: '/mediaManager/listen.png',
     width: 1024,
     height: 1024,
   },
-  "soundtrack-cover.jpg": {
-    url: "/mediaManager/soundtrack-cover.jpg",
+  'soundtrack-cover.jpg': {
+    url: '/mediaManager/soundtrack-cover.jpg',
     width: 1200,
     height: 1200,
   },
-  "soundtrack.mp3": {
-    url: "/mediaManager/soundtrack.mp3",
+  'soundtrack.mp3': {
+    url: '/mediaManager/soundtrack.mp3',
   },
   // Thêm rỗng để tránh lỗi truy cập key không tồn tại
-  "": {
-    url: "",
+  '': {
+    url: '',
   },
 };
 
 // Hàm chuyển tên section sang tên trường JSON
 function profileSectionToJSONField(section: string): string | undefined {
   switch (section) {
-    case "Projects":
-      return "projects";
-    case "Side Projects":
-      return "sideProjects";
-    case "Exhibitions":
-      return "exhibitions";
-    case "Speaking":
-      return "talks";
-    case "Writing":
-      return "writing";
-    case "Awards":
-      return "awards";
-    case "Features":
-      return "features";
-    case "Work Experience":
-      return "workExperience";
-    case "Volunteering":
-      return "volunteering";
-    case "Education":
-      return "education";
-    case "Certifications":
-      return "certifications";
-    case "Contact":
-      return "contact";
+    case 'Projects':
+      return 'projects';
+    case 'Side Projects':
+      return 'sideProjects';
+    case 'Exhibitions':
+      return 'exhibitions';
+    case 'Speaking':
+      return 'talks';
+    case 'Writing':
+      return 'writing';
+    case 'Awards':
+      return 'awards';
+    case 'Features':
+      return 'features';
+    case 'Work Experience':
+      return 'workExperience';
+    case 'Volunteering':
+      return 'volunteering';
+    case 'Education':
+      return 'education';
+    case 'Certifications':
+      return 'certifications';
+    case 'Contact':
+      return 'contact';
     default:
       return undefined;
   }
@@ -164,7 +151,7 @@ const cv: CV = {
     const sections = typedProfileData.general.sectionOrder || Tabs;
     for (const section of sections) {
       const jsonField = profileSectionToJSONField(section);
-      if (typeof jsonField === "undefined") {
+      if (typeof jsonField === 'undefined') {
         continue;
       }
       const fieldValue = typedProfileData[jsonField];
@@ -181,7 +168,7 @@ const cv: CV = {
 
   media(filename: string) {
     // Nếu filename không tồn tại thì dùng key rỗng
-    const file = mediaFiles[filename] || mediaFiles[""];
+    const file = mediaFiles[filename] || mediaFiles[''];
     return new CVMediaObject(file);
   },
 };

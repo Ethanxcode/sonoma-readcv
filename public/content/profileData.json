@@ -1,484 +1,484 @@
 {
-  "general": {
-    "profilePhoto": "/content/media/profilePhoto.jpg",
-    "username": "trannguyendanhuy",
-    "displayName": "Huy Tran Nguyen Dang",
-    "profession": "Full-Stack Developer",
-    "location": "Ho Chi Minh, Vietnam",
-    "pronouns": "He/him",
-    "byline": "Full-Stack Developer in Ho Chi Minh, Vietnam, He/him",
-    "website": "https://portfolioz-lemon.vercel.app/",
-    "websiteURL": "https://portfolioz-lemon.vercel.app/",
-    "about": "I Love'd to develop, build, test and deploy software.",
-    "status": {
-      "text": "hehe",
-      "emoji": "😆",
-      "timestamp": "2024-04-08T10:09:45.947Z"
+    "general": {
+        "profilePhoto": "/content/media/profilePhoto.jpg",
+        "username": "trannguyendanhuy",
+        "displayName": "Huy Tran Nguyen Dang",
+        "profession": "Full-Stack Developer",
+        "location": "Ho Chi Minh, Vietnam",
+        "pronouns": "He/him",
+        "byline": "Full-Stack Developer in Ho Chi Minh, Vietnam, He/him",
+        "website": "https://portfolioz-lemon.vercel.app/",
+        "websiteURL": "https://portfolioz-lemon.vercel.app/",
+        "about": "I Love'd to develop, build, test and deploy software.",
+        "status": {
+            "text": "hehe",
+            "emoji": "😆",
+            "timestamp": "2024-04-08T10:09:45.947Z"
+        },
+        "sectionOrder": [
+            "Projects",
+            "Side Projects",
+            "Exhibitions",
+            "Speaking",
+            "Writing",
+            "Awards",
+            "Features",
+            "Work Experience",
+            "Volunteering",
+            "Education",
+            "Certifications",
+            "Contact",
+            "Teams"
+        ]
     },
-    "sectionOrder": [
-      "Projects",
-      "Side Projects",
-      "Exhibitions",
-      "Speaking",
-      "Writing",
-      "Awards",
-      "Features",
-      "Work Experience",
-      "Volunteering",
-      "Education",
-      "Certifications",
-      "Contact",
-      "Teams"
+    "projects": [
+        {
+            "id": "j1pHqiErCnnINW2mF4WD",
+            "year": "2024",
+            "heading": "Block Sign - Contract management platform",
+            "url": "https://block-sign.vercel.app/",
+            "collaborators": [],
+            "description": "Participate in the developer team to build BlockSign, a platform that helps people create, store, and manage contracts transparently, securely, and irrevocably. Utilized Next.js to build the front-end, integrating Shadcn, AceternityUI, TailwindCSS, Lucide, and I18n for a robust UI/UX. Employed Zustand for state management and React Query to fetch data. The backend was built with NestJS, implementing functionalities such as upload and CRUD operations. Collaborated with the team leader to deploy microservices using NestJS through Kafka.\n\nTechnologies stack:\n\n* As front-end: Typescript · Next.js · shadcn · Aceternity UI · Tailwind CSS · Lucide · I18n · Zod.\n\n* As back-end: NestJS · MongoDB · ERD · Blockchain · I18n.\n\n* GitHub · Slack · Agile Web Development · ClickUp · visily.",
+            "attachments": [
+                {
+                    "type": "image",
+                    "width": 1920,
+                    "height": 928,
+                    "url": "/content/media/Block-Sign-Contract-management-platform.png"
+                }
+            ],
+            "type": "project",
+            "title": "Block Sign - Contract management platform",
+            "company": ""
+        },
+        {
+            "id": "IDDpLXJqXnA1hfpKZ52Y",
+            "year": "2023",
+            "heading": "Practice Workshop Management website at FPT Polytechnic College of Ho Chi Minh",
+            "url": "https://xuongthuchanh.poly.edu.vn/",
+            "collaborators": [],
+            "description": "Engaged in a software development project for managing workshop activities and student administration.\n\nWork Overview:\n\n* Developed a web application to manage students and activities in a workshop setting.\n\n* Successfully managed more than 15k registered users.\n\n* Built UI and developed logic in Typescript, React, Tailwind CSS, Redux Toolkit, and RTK Query.\n\n* Implemented UI/UX prototype flow.\n\n* Handled design, logic, and app development based on backend APIs.\n\n* Contributed to the completion of the project and its deployment.\n\n* Deliver high-quality user experience and optimize functionalities.\n\nTechnologies: Typescript, React, Tailwind CSS, Redux Toolkit, RTK Query, Github, Trello,...\n\nAdditional Information:\n\n* Worked under the guidance of Workshop Director Nguyen Tri Dinh.\n\n* Handled other ad-hoc tasks as required.\n\nThank you for visiting our project page.",
+            "attachments": [
+                {
+                    "type": "image",
+                    "width": 4000,
+                    "height": 3000,
+                    "url": "/content/media/Practice-Workshop-Management-website-at-FPT-Polytechnic-College-of-Ho-Chi-Minh-1.png"
+                },
+                {
+                    "type": "image",
+                    "width": 2339,
+                    "height": 1654,
+                    "url": "/content/media/Practice-Workshop-Management-website-at-FPT-Polytechnic-College-of-Ho-Chi-Minh-2.png"
+                }
+            ],
+            "type": "project",
+            "title": "Practice Workshop Management website",
+            "company": "FPT Polytechnic College of Ho Chi Minh"
+        }
+    ],
+    "sideProjects": [
+        {
+            "id": "doGTzpWxX8g0pwRxKJCP",
+            "year": "2025",
+            "heading": "Perry Toc Chien – A Seamless Dual Booking Platform at Perry",
+            "url": "https://perry-toc-chien.vercel.app/",
+            "collaborators": [],
+            "description": "Perry Project is a dynamic scheduling platform designed to connect users with their hosts effortlessly. With a focus on user experience and security, the platform offers:\n\n* Dual Booking System: Schedule appointments with your host through an intuitive interface, allowing you to select the perfect time slots from a clear, interactive calendar.\n\n* Secure Login & Email Verification: Users can easily register and log in, with robust email verification to ensure account authenticity and security.\n\n* Easy Deposits via SePay: The integrated SePay payment gateway streamlines the deposit process, making transactions fast, secure, and hassle-free.\n\n* FullCalendar Integration: Leveraging FullCalendar, Perry Project presents a comprehensive and user-friendly view of available time slots, enabling efficient booking management.\n\nFrom registration to appointment confirmation, Perry Project delivers a smooth, transparent experience for both hosts and guests, ensuring every booking is managed with precision and ease.\n\nTechnologies stack:\n\n* As front-end: Typescript · Next.js 15 · React 19 · shadcn · Aceternity UI · Tailwind CSS · Lucide · Zod · NextAuth.\n\n* As back-end: Server Action · PrismaDB.\n\n* GitHub · Vercel.",
+            "attachments": [
+                {
+                    "type": "image",
+                    "width": 1308,
+                    "height": 816,
+                    "url": "/content/media/Perry-Toc-Chien-A-Seamless-Dual-Booking-Platform-at-Perry.png"
+                }
+            ],
+            "type": "sideProject",
+            "title": "Perry Toc Chien – A Seamless Dual Booking Platform",
+            "company": "Perry"
+        },
+        {
+            "id": "D5NeaaOphL7pKgiULvn7",
+            "year": "2024",
+            "heading": "Gloria - Digital menu system helps you manage menus easily at FPT Polytechnic College Ho Chi Minh",
+            "url": "https://gloria-alpha.vercel.app/",
+            "collaborators": [],
+            "description": "Gloria is an order system utilizing React and NestJS. The system provides instant order notifications with Socket.io.\\\n\\\nTechnologies stack:\n\n* As front-end: Typescript · React · Tailwind CSS · daisyUi · Redux Toolkit · RTK Query ·  Socket.io ·  Zod.\n\n* As back-end: NestJS · MongoDB · ERD · I18n.\n\n* Github ·  Trello",
+            "attachments": [
+                {
+                    "type": "image",
+                    "width": 1920,
+                    "height": 929,
+                    "url": "/content/media/Gloria-Digital-menu-system-helps-you-manage-menus-easily-at-FPT-Polytechnic-College-Ho-Chi-Minh.png"
+                }
+            ],
+            "type": "sideProject",
+            "title": "Gloria - Digital menu system helps you manage menus easily",
+            "company": "FPT Polytechnic College Ho Chi Minh"
+        }
+    ],
+    "exhibitions": [],
+    "talks": [],
+    "writing": [],
+    "awards": [
+        {
+            "id": "kKYCZC4vyNBHjQPsy1SJ",
+            "year": "2023",
+            "heading": "GOLDEN BEE AWARDS FALL from FPT Polytechnic College of Ho Chi Minh",
+            "url": null,
+            "collaborators": [],
+            "description": "The Golden Bee Awards Fall - a ceremony to honor the top 100 outstanding students is an annual event organized by FPT Polytechnic College, Ho Chi Minh campus, at the end of each semester.",
+            "attachments": [],
+            "type": "award",
+            "title": "GOLDEN BEE AWARDS FALL",
+            "presenter": "FPT Polytechnic College of Ho Chi Minh"
+        }
+    ],
+    "features": [],
+    "workExperience": [
+        {
+            "id": "53fqTSWzAtFm64Xr9OsZ",
+            "year": "2024 — Now",
+            "heading": "Full-Stack Developer at TIEN PHONG CDS JSC",
+            "url": "https://tienphongcorp.com/views/gioi-thieu.html",
+            "collaborators": [],
+            "description": "I have extensive experience in maintaining and enhancing system performance to meet evolving client requirements. By collaborating closely with cross-functional teams, I have designed reliable, scalable API solutions and ensured high availability and responsiveness through rigorous testing and troubleshooting. These efforts have directly improved system functionality and user experience.\n\nOMNI-SERVICE APIs – API Endpoints\n\n* Built and developed PHP-based API endpoints for systems such as Dai Thuan, King Coffee, Mutosi, ePro, and others.\n\n* Optimized APIs to ensure stability, high performance, and scalability.\n\n* Integrated Vincss Single Sign-On (SSO) authentication with robust error handling and session management to enhance security and user experience.\n\nXhero – Dai Nam LMS\n\n* Designed and developed a Moodle-based learning management system (LMS) tailored to client requirements.\n\n* Engaged directly with clients to ensure their needs were clearly understood and effectively implemented.\n\n* Developed an attractive, responsive front-end landing page to provide a user-friendly interface.\n\nMinistry of Culture, Sports and Tourism – VietnamFoodMap\n\n* Developed the VietnamFoodMap module to showcase Vietnam’s rich culinary heritage through interactive maps and engaging user interfaces.\n\n* Delivered a solution that met both functional requirements and cultural preservation goals, ensuring a seamless and immersive user experience.",
+            "attachments": [],
+            "type": "workExperience",
+            "title": "Full-Stack Developer",
+            "company": "TIEN PHONG CDS JSC",
+            "location": "Ho Chi Minh City"
+        },
+        {
+            "id": "Xfnywb4QOsdI81F86gL7",
+            "year": "2023 — 2024",
+            "heading": "Frontend Developer at FPT Polytechnic College of Ho Chi Minh",
+            "url": "https://xuongthuchanh.poly.edu.vn/",
+            "collaborators": [],
+            "description": "Working as a Front-end in the workshop management project at FPT Polytechnic, Ho Chi Minh campus.",
+            "attachments": [],
+            "type": "workExperience",
+            "title": "Frontend Developer",
+            "company": "FPT Polytechnic College of Ho Chi Minh",
+            "location": "Vietnam"
+        }
+    ],
+    "volunteering": [
+        {
+            "id": "vkmSdqQFVQZPgZ2ji24N",
+            "year": "2021 — 2021",
+            "heading": "Volunteer Support for COVID-19 Pandemic Prevention at Youth Union of the Commune",
+            "url": null,
+            "collaborators": [],
+            "description": "Assisted management teams, organized, and inputted necessary information for managing citizens during the COVID-19 pandemic.",
+            "attachments": [],
+            "type": "volunteering",
+            "title": "Volunteer Support for COVID-19 Pandemic Prevention",
+            "organization": "Youth Union of the Commune",
+            "location": "vietnam"
+        }
+    ],
+    "education": [
+        {
+            "id": "zkiVInD9AksfSmyChb9g",
+            "year": "2022 — 2024",
+            "heading": "Associate's Degree, Information Technology at FPT Polytechnic College of Ho Chi Minh",
+            "url": "https://caodang.fpt.edu.vn/fpt-polytechnic-lua-chon-cua-nhung-ban-tre-nang-dong?utm_source=Google&utm_medium=CPC&utm_campaign=CD_FPT&gad_source=1&gclid=CjwKCAiArfauBhApEiwAeoB7qFHAyH5o4geHEvU0QckvHjqOfvZv2HPy_5iVVm87yknkELqYbxlOLBoC6UwQAvD_BwE",
+            "collaborators": [],
+            "description": "* Expertise: web programming, full-stack\n\n* Expected graduation time: June 2024\n\n* GPA: 8.0/10\n\n* Language: English (working adaptable)",
+            "attachments": [],
+            "type": "education",
+            "degree": "Associate's Degree, Information Technology",
+            "school": "FPT Polytechnic College of Ho Chi Minh",
+            "location": "Vietnam"
+        }
+    ],
+    "certifications": [
+        {
+            "id": "Om9vtq8gioHJHdWCo9vZ",
+            "year": "2023",
+            "heading": "The Complete Javascript Course 2023: From Zero to Expert! from Udemy",
+            "url": "https://www.udemy.com/certificate/UC-2d32abe0-df29-4e03-ad84-d5e7f5b43801/",
+            "collaborators": [],
+            "description": "Instructor Jonas Schmedtmann\n\n* Date Sept, 27, 2023\n\n* Length 68.5 total hours\n\nReference Number: 0004",
+            "attachments": [],
+            "type": "certification",
+            "name": "The Complete Javascript Course 2023: From Zero to Expert!",
+            "organization": "Udemy"
+        },
+        {
+            "id": "KPhrkaEDz2zrxhUtQOJ9",
+            "year": "2020",
+            "heading": "Build a Practice Workshop Management System from FPT Polytechnic College of Ho Chi Minh",
+            "url": "https://xuongthuchanh.poly.edu.vn/certificate/PS27184/659a09036f35a0f5f34e3f65",
+            "collaborators": [],
+            "description": "",
+            "attachments": [],
+            "type": "certification",
+            "name": "Build a Practice Workshop Management System",
+            "organization": "FPT Polytechnic College of Ho Chi Minh"
+        }
+    ],
+    "contact": [
+        {
+            "id": "VG6tVsnTZcqXqr3Ad1uS",
+            "platform": "Email",
+            "handle": "danhuy.work@gmail.com",
+            "url": "mailto:danhuy.work@gmail.com"
+        },
+        {
+            "id": "xMTTac5QRoxapttQ6ot2",
+            "platform": "Website",
+            "handle": "portfolioz-lemon.vercel.app",
+            "url": "https://portfolioz-lemon.vercel.app/"
+        },
+        {
+            "id": "MAkNJwEA7RtFAEpL8ViM",
+            "platform": "LinkedIn",
+            "handle": "trannguyendanghuy",
+            "url": "https://linkedin.com/in/trannguyendanghuy"
+        },
+        {
+            "id": "MOsHE9Yq2SCh4xlGjth8",
+            "platform": "GitHub",
+            "handle": "Ethanxcode",
+            "url": "https://github.com/Ethanxcode"
+        }
+    ],
+    "allCollections": [
+        {
+            "name": "Projects",
+            "items": [
+                {
+                    "id": "j1pHqiErCnnINW2mF4WD",
+                    "year": "2024",
+                    "heading": "Block Sign - Contract management platform",
+                    "url": "https://block-sign.vercel.app/",
+                    "collaborators": [],
+                    "description": "Participate in the developer team to build BlockSign, a platform that helps people create, store, and manage contracts transparently, securely, and irrevocably. Utilized Next.js to build the front-end, integrating Shadcn, AceternityUI, TailwindCSS, Lucide, and I18n for a robust UI/UX. Employed Zustand for state management and React Query to fetch data. The backend was built with NestJS, implementing functionalities such as upload and CRUD operations. Collaborated with the team leader to deploy microservices using NestJS through Kafka.\n\nTechnologies stack:\n\n* As front-end: Typescript · Next.js · shadcn · Aceternity UI · Tailwind CSS · Lucide · I18n · Zod.\n\n* As back-end: NestJS · MongoDB · ERD · Blockchain · I18n.\n\n* GitHub · Slack · Agile Web Development · ClickUp · visily.",
+                    "attachments": [
+                        {
+                            "type": "image",
+                            "width": 1920,
+                            "height": 928,
+                            "url": "/content/media/Block-Sign-Contract-management-platform.png"
+                        }
+                    ],
+                    "type": "project",
+                    "title": "Block Sign - Contract management platform",
+                    "company": ""
+                },
+                {
+                    "id": "IDDpLXJqXnA1hfpKZ52Y",
+                    "year": "2023",
+                    "heading": "Practice Workshop Management website at FPT Polytechnic College of Ho Chi Minh",
+                    "url": "https://xuongthuchanh.poly.edu.vn/",
+                    "collaborators": [],
+                    "description": "Engaged in a software development project for managing workshop activities and student administration.\n\nWork Overview:\n\n* Developed a web application to manage students and activities in a workshop setting.\n\n* Successfully managed more than 15k registered users.\n\n* Built UI and developed logic in Typescript, React, Tailwind CSS, Redux Toolkit, and RTK Query.\n\n* Implemented UI/UX prototype flow.\n\n* Handled design, logic, and app development based on backend APIs.\n\n* Contributed to the completion of the project and its deployment.\n\n* Deliver high-quality user experience and optimize functionalities.\n\nTechnologies: Typescript, React, Tailwind CSS, Redux Toolkit, RTK Query, Github, Trello,...\n\nAdditional Information:\n\n* Worked under the guidance of Workshop Director Nguyen Tri Dinh.\n\n* Handled other ad-hoc tasks as required.\n\nThank you for visiting our project page.",
+                    "attachments": [
+                        {
+                            "type": "image",
+                            "width": 4000,
+                            "height": 3000,
+                            "url": "/content/media/Practice-Workshop-Management-website-at-FPT-Polytechnic-College-of-Ho-Chi-Minh-1.png"
+                        },
+                        {
+                            "type": "image",
+                            "width": 2339,
+                            "height": 1654,
+                            "url": "/content/media/Practice-Workshop-Management-website-at-FPT-Polytechnic-College-of-Ho-Chi-Minh-2.png"
+                        }
+                    ],
+                    "type": "project",
+                    "title": "Practice Workshop Management website",
+                    "company": "FPT Polytechnic College of Ho Chi Minh"
+                }
+            ]
+        },
+        {
+            "name": "Side Projects",
+            "items": [
+                {
+                    "id": "doGTzpWxX8g0pwRxKJCP",
+                    "year": "2025",
+                    "heading": "Perry Toc Chien – A Seamless Dual Booking Platform at Perry",
+                    "url": "https://perry-toc-chien.vercel.app/",
+                    "collaborators": [],
+                    "description": "Perry Project is a dynamic scheduling platform designed to connect users with their hosts effortlessly. With a focus on user experience and security, the platform offers:\n\n* Dual Booking System: Schedule appointments with your host through an intuitive interface, allowing you to select the perfect time slots from a clear, interactive calendar.\n\n* Secure Login & Email Verification: Users can easily register and log in, with robust email verification to ensure account authenticity and security.\n\n* Easy Deposits via SePay: The integrated SePay payment gateway streamlines the deposit process, making transactions fast, secure, and hassle-free.\n\n* FullCalendar Integration: Leveraging FullCalendar, Perry Project presents a comprehensive and user-friendly view of available time slots, enabling efficient booking management.\n\nFrom registration to appointment confirmation, Perry Project delivers a smooth, transparent experience for both hosts and guests, ensuring every booking is managed with precision and ease.\n\nTechnologies stack:\n\n* As front-end: Typescript · Next.js 15 · React 19 · shadcn · Aceternity UI · Tailwind CSS · Lucide · Zod · NextAuth.\n\n* As back-end: Server Action · PrismaDB.\n\n* GitHub · Vercel.",
+                    "attachments": [
+                        {
+                            "type": "image",
+                            "width": 1308,
+                            "height": 816,
+                            "url": "/content/media/Perry-Toc-Chien-A-Seamless-Dual-Booking-Platform-at-Perry.png"
+                        }
+                    ],
+                    "type": "sideProject",
+                    "title": "Perry Toc Chien – A Seamless Dual Booking Platform",
+                    "company": "Perry"
+                },
+                {
+                    "id": "D5NeaaOphL7pKgiULvn7",
+                    "year": "2024",
+                    "heading": "Gloria - Digital menu system helps you manage menus easily at FPT Polytechnic College Ho Chi Minh",
+                    "url": "https://gloria-alpha.vercel.app/",
+                    "collaborators": [],
+                    "description": "Gloria is an order system utilizing React and NestJS. The system provides instant order notifications with Socket.io.\\\n\\\nTechnologies stack:\n\n* As front-end: Typescript · React · Tailwind CSS · daisyUi · Redux Toolkit · RTK Query ·  Socket.io ·  Zod.\n\n* As back-end: NestJS · MongoDB · ERD · I18n.\n\n* Github ·  Trello",
+                    "attachments": [
+                        {
+                            "type": "image",
+                            "width": 1920,
+                            "height": 929,
+                            "url": "/content/media/Gloria-Digital-menu-system-helps-you-manage-menus-easily-at-FPT-Polytechnic-College-Ho-Chi-Minh.png"
+                        }
+                    ],
+                    "type": "sideProject",
+                    "title": "Gloria - Digital menu system helps you manage menus easily",
+                    "company": "FPT Polytechnic College Ho Chi Minh"
+                }
+            ]
+        },
+        {
+            "name": "Awards",
+            "items": [
+                {
+                    "id": "kKYCZC4vyNBHjQPsy1SJ",
+                    "year": "2023",
+                    "heading": "GOLDEN BEE AWARDS FALL from FPT Polytechnic College of Ho Chi Minh",
+                    "url": null,
+                    "collaborators": [],
+                    "description": "The Golden Bee Awards Fall - a ceremony to honor the top 100 outstanding students is an annual event organized by FPT Polytechnic College, Ho Chi Minh campus, at the end of each semester.",
+                    "attachments": [],
+                    "type": "award",
+                    "title": "GOLDEN BEE AWARDS FALL",
+                    "presenter": "FPT Polytechnic College of Ho Chi Minh"
+                }
+            ]
+        },
+        {
+            "name": "Work Experience",
+            "items": [
+                {
+                    "id": "53fqTSWzAtFm64Xr9OsZ",
+                    "year": "2024 — Now",
+                    "heading": "Full-Stack Developer at TIEN PHONG CDS JSC",
+                    "url": "https://tienphongcorp.com/views/gioi-thieu.html",
+                    "collaborators": [],
+                    "description": "I have extensive experience in maintaining and enhancing system performance to meet evolving client requirements. By collaborating closely with cross-functional teams, I have designed reliable, scalable API solutions and ensured high availability and responsiveness through rigorous testing and troubleshooting. These efforts have directly improved system functionality and user experience.\n\nOMNI-SERVICE APIs – API Endpoints\n\n* Built and developed PHP-based API endpoints for systems such as Dai Thuan, King Coffee, Mutosi, ePro, and others.\n\n* Optimized APIs to ensure stability, high performance, and scalability.\n\n* Integrated Vincss Single Sign-On (SSO) authentication with robust error handling and session management to enhance security and user experience.\n\nXhero – Dai Nam LMS\n\n* Designed and developed a Moodle-based learning management system (LMS) tailored to client requirements.\n\n* Engaged directly with clients to ensure their needs were clearly understood and effectively implemented.\n\n* Developed an attractive, responsive front-end landing page to provide a user-friendly interface.\n\nMinistry of Culture, Sports and Tourism – VietnamFoodMap\n\n* Developed the VietnamFoodMap module to showcase Vietnam’s rich culinary heritage through interactive maps and engaging user interfaces.\n\n* Delivered a solution that met both functional requirements and cultural preservation goals, ensuring a seamless and immersive user experience.",
+                    "attachments": [],
+                    "type": "workExperience",
+                    "title": "Full-Stack Developer",
+                    "company": "TIEN PHONG CDS JSC",
+                    "location": "Ho Chi Minh City"
+                },
+                {
+                    "id": "Xfnywb4QOsdI81F86gL7",
+                    "year": "2023 — 2024",
+                    "heading": "Frontend Developer at FPT Polytechnic College of Ho Chi Minh",
+                    "url": "https://xuongthuchanh.poly.edu.vn/",
+                    "collaborators": [],
+                    "description": "Working as a Front-end in the workshop management project at FPT Polytechnic, Ho Chi Minh campus.",
+                    "attachments": [],
+                    "type": "workExperience",
+                    "title": "Frontend Developer",
+                    "company": "FPT Polytechnic College of Ho Chi Minh",
+                    "location": "Vietnam"
+                }
+            ]
+        },
+        {
+            "name": "Volunteering",
+            "items": [
+                {
+                    "id": "vkmSdqQFVQZPgZ2ji24N",
+                    "year": "2021 — 2021",
+                    "heading": "Volunteer Support for COVID-19 Pandemic Prevention at Youth Union of the Commune",
+                    "url": null,
+                    "collaborators": [],
+                    "description": "Assisted management teams, organized, and inputted necessary information for managing citizens during the COVID-19 pandemic.",
+                    "attachments": [],
+                    "type": "volunteering",
+                    "title": "Volunteer Support for COVID-19 Pandemic Prevention",
+                    "organization": "Youth Union of the Commune",
+                    "location": "vietnam"
+                }
+            ]
+        },
+        {
+            "name": "Education",
+            "items": [
+                {
+                    "id": "zkiVInD9AksfSmyChb9g",
+                    "year": "2022 — 2024",
+                    "heading": "Associate's Degree, Information Technology at FPT Polytechnic College of Ho Chi Minh",
+                    "url": "https://caodang.fpt.edu.vn/fpt-polytechnic-lua-chon-cua-nhung-ban-tre-nang-dong?utm_source=Google&utm_medium=CPC&utm_campaign=CD_FPT&gad_source=1&gclid=CjwKCAiArfauBhApEiwAeoB7qFHAyH5o4geHEvU0QckvHjqOfvZv2HPy_5iVVm87yknkELqYbxlOLBoC6UwQAvD_BwE",
+                    "collaborators": [],
+                    "description": "* Expertise: web programming, full-stack\n\n* Expected graduation time: June 2024\n\n* GPA: 8.0/10\n\n* Language: English (working adaptable)",
+                    "attachments": [],
+                    "type": "education",
+                    "degree": "Associate's Degree, Information Technology",
+                    "school": "FPT Polytechnic College of Ho Chi Minh",
+                    "location": "Vietnam"
+                }
+            ]
+        },
+        {
+            "name": "Certifications",
+            "items": [
+                {
+                    "id": "Om9vtq8gioHJHdWCo9vZ",
+                    "year": "2023",
+                    "heading": "The Complete Javascript Course 2023: From Zero to Expert! from Udemy",
+                    "url": "https://www.udemy.com/certificate/UC-2d32abe0-df29-4e03-ad84-d5e7f5b43801/",
+                    "collaborators": [],
+                    "description": "Instructor Jonas Schmedtmann\n\n* Date Sept, 27, 2023\n\n* Length 68.5 total hours\n\nReference Number: 0004",
+                    "attachments": [],
+                    "type": "certification",
+                    "name": "The Complete Javascript Course 2023: From Zero to Expert!",
+                    "organization": "Udemy"
+                },
+                {
+                    "id": "KPhrkaEDz2zrxhUtQOJ9",
+                    "year": "2020",
+                    "heading": "Build a Practice Workshop Management System from FPT Polytechnic College of Ho Chi Minh",
+                    "url": "https://xuongthuchanh.poly.edu.vn/certificate/PS27184/659a09036f35a0f5f34e3f65",
+                    "collaborators": [],
+                    "description": "",
+                    "attachments": [],
+                    "type": "certification",
+                    "name": "Build a Practice Workshop Management System",
+                    "organization": "FPT Polytechnic College of Ho Chi Minh"
+                }
+            ]
+        },
+        {
+            "name": "Contact",
+            "items": [
+                {
+                    "id": "VG6tVsnTZcqXqr3Ad1uS",
+                    "platform": "Email",
+                    "handle": "danhuy.work@gmail.com",
+                    "url": "mailto:danhuy.work@gmail.com"
+                },
+                {
+                    "id": "xMTTac5QRoxapttQ6ot2",
+                    "platform": "Website",
+                    "handle": "portfolioz-lemon.vercel.app",
+                    "url": "https://portfolioz-lemon.vercel.app/"
+                },
+                {
+                    "id": "MAkNJwEA7RtFAEpL8ViM",
+                    "platform": "LinkedIn",
+                    "handle": "trannguyendanghuy",
+                    "url": "https://linkedin.com/in/trannguyendanghuy"
+                },
+                {
+                    "id": "MOsHE9Yq2SCh4xlGjth8",
+                    "platform": "GitHub",
+                    "handle": "Ethanxcode",
+                    "url": "https://github.com/Ethanxcode"
+                }
+            ]
+        }
     ]
-  },
-  "projects": [
-    {
-      "id": "j1pHqiErCnnINW2mF4WD",
-      "year": "2024",
-      "heading": "Block Sign - Contract management platform",
-      "url": "https://block-sign.vercel.app/",
-      "collaborators": [],
-      "description": "Participate in the developer team to build BlockSign, a platform that helps people create, store, and manage contracts transparently, securely, and irrevocably. Utilized Next.js to build the front-end, integrating Shadcn, AceternityUI, TailwindCSS, Lucide, and I18n for a robust UI/UX. Employed Zustand for state management and React Query to fetch data. The backend was built with NestJS, implementing functionalities such as upload and CRUD operations. Collaborated with the team leader to deploy microservices using NestJS through Kafka.\n\nTechnologies stack:\n\n* As front-end: Typescript · Next.js · shadcn · Aceternity UI · Tailwind CSS · Lucide · I18n · Zod.\n\n* As back-end: NestJS · MongoDB · ERD · Blockchain · I18n.\n\n* GitHub · Slack · Agile Web Development · ClickUp · visily.",
-      "attachments": [
-        {
-          "type": "image",
-          "width": 1920,
-          "height": 928,
-          "url": "/content/media/Block-Sign-Contract-management-platform.png"
-        }
-      ],
-      "type": "project",
-      "title": "Block Sign - Contract management platform",
-      "company": ""
-    },
-    {
-      "id": "IDDpLXJqXnA1hfpKZ52Y",
-      "year": "2023",
-      "heading": "Practice Workshop Management website at FPT Polytechnic College of Ho Chi Minh",
-      "url": "https://xuongthuchanh.poly.edu.vn/",
-      "collaborators": [],
-      "description": "Engaged in a software development project for managing workshop activities and student administration.\n\nWork Overview:\n\n* Developed a web application to manage students and activities in a workshop setting.\n\n* Successfully managed more than 15k registered users.\n\n* Built UI and developed logic in Typescript, React, Tailwind CSS, Redux Toolkit, and RTK Query.\n\n* Implemented UI/UX prototype flow.\n\n* Handled design, logic, and app development based on backend APIs.\n\n* Contributed to the completion of the project and its deployment.\n\n* Deliver high-quality user experience and optimize functionalities.\n\nTechnologies: Typescript, React, Tailwind CSS, Redux Toolkit, RTK Query, Github, Trello,...\n\nAdditional Information:\n\n* Worked under the guidance of Workshop Director Nguyen Tri Dinh.\n\n* Handled other ad-hoc tasks as required.\n\nThank you for visiting our project page.",
-      "attachments": [
-        {
-          "type": "image",
-          "width": 4000,
-          "height": 3000,
-          "url": "/content/media/Practice-Workshop-Management-website-at-FPT-Polytechnic-College-of-Ho-Chi-Minh-1.png"
-        },
-        {
-          "type": "image",
-          "width": 2339,
-          "height": 1654,
-          "url": "/content/media/Practice-Workshop-Management-website-at-FPT-Polytechnic-College-of-Ho-Chi-Minh-2.png"
-        }
-      ],
-      "type": "project",
-      "title": "Practice Workshop Management website",
-      "company": "FPT Polytechnic College of Ho Chi Minh"
-    }
-  ],
-  "sideProjects": [
-    {
-      "id": "doGTzpWxX8g0pwRxKJCP",
-      "year": "2025",
-      "heading": "Perry Toc Chien – A Seamless Dual Booking Platform at Perry",
-      "url": "https://perry-toc-chien.vercel.app/",
-      "collaborators": [],
-      "description": "Perry Project is a dynamic scheduling platform designed to connect users with their hosts effortlessly. With a focus on user experience and security, the platform offers:\n\n* Dual Booking System: Schedule appointments with your host through an intuitive interface, allowing you to select the perfect time slots from a clear, interactive calendar.\n\n* Secure Login & Email Verification: Users can easily register and log in, with robust email verification to ensure account authenticity and security.\n\n* Easy Deposits via SePay: The integrated SePay payment gateway streamlines the deposit process, making transactions fast, secure, and hassle-free.\n\n* FullCalendar Integration: Leveraging FullCalendar, Perry Project presents a comprehensive and user-friendly view of available time slots, enabling efficient booking management.\n\nFrom registration to appointment confirmation, Perry Project delivers a smooth, transparent experience for both hosts and guests, ensuring every booking is managed with precision and ease.\n\nTechnologies stack:\n\n* As front-end: Typescript · Next.js 15 · React 19 · shadcn · Aceternity UI · Tailwind CSS · Lucide · Zod · NextAuth.\n\n* As back-end: Server Action · PrismaDB.\n\n* GitHub · Vercel.",
-      "attachments": [
-        {
-          "type": "image",
-          "width": 1308,
-          "height": 816,
-          "url": "/content/media/Perry-Toc-Chien-A-Seamless-Dual-Booking-Platform-at-Perry.png"
-        }
-      ],
-      "type": "sideProject",
-      "title": "Perry Toc Chien – A Seamless Dual Booking Platform",
-      "company": "Perry"
-    },
-    {
-      "id": "D5NeaaOphL7pKgiULvn7",
-      "year": "2024",
-      "heading": "Gloria - Digital menu system helps you manage menus easily at FPT Polytechnic College Ho Chi Minh",
-      "url": "https://gloria-alpha.vercel.app/",
-      "collaborators": [],
-      "description": "Gloria is an order system utilizing React and NestJS. The system provides instant order notifications with Socket.io.\\\n\\\nTechnologies stack:\n\n* As front-end: Typescript · React · Tailwind CSS · daisyUi · Redux Toolkit · RTK Query ·  Socket.io ·  Zod.\n\n* As back-end: NestJS · MongoDB · ERD · I18n.\n\n* Github ·  Trello",
-      "attachments": [
-        {
-          "type": "image",
-          "width": 1920,
-          "height": 929,
-          "url": "/content/media/Gloria-Digital-menu-system-helps-you-manage-menus-easily-at-FPT-Polytechnic-College-Ho-Chi-Minh.png"
-        }
-      ],
-      "type": "sideProject",
-      "title": "Gloria - Digital menu system helps you manage menus easily",
-      "company": "FPT Polytechnic College Ho Chi Minh"
-    }
-  ],
-  "exhibitions": [],
-  "talks": [],
-  "writing": [],
-  "awards": [
-    {
-      "id": "kKYCZC4vyNBHjQPsy1SJ",
-      "year": "2023",
-      "heading": "GOLDEN BEE AWARDS FALL from FPT Polytechnic College of Ho Chi Minh",
-      "url": null,
-      "collaborators": [],
-      "description": "The Golden Bee Awards Fall - a ceremony to honor the top 100 outstanding students is an annual event organized by FPT Polytechnic College, Ho Chi Minh campus, at the end of each semester.",
-      "attachments": [],
-      "type": "award",
-      "title": "GOLDEN BEE AWARDS FALL",
-      "presenter": "FPT Polytechnic College of Ho Chi Minh"
-    }
-  ],
-  "features": [],
-  "workExperience": [
-    {
-      "id": "53fqTSWzAtFm64Xr9OsZ",
-      "year": "2024 — Now",
-      "heading": "Full-Stack Developer at TIEN PHONG CDS JSC",
-      "url": "https://tienphongcorp.com/views/gioi-thieu.html",
-      "collaborators": [],
-      "description": "I have extensive experience in maintaining and enhancing system performance to meet evolving client requirements. By collaborating closely with cross-functional teams, I have designed reliable, scalable API solutions and ensured high availability and responsiveness through rigorous testing and troubleshooting. These efforts have directly improved system functionality and user experience.\n\nOMNI-SERVICE APIs – API Endpoints\n\n* Built and developed PHP-based API endpoints for systems such as Dai Thuan, King Coffee, Mutosi, ePro, and others.\n\n* Optimized APIs to ensure stability, high performance, and scalability.\n\n* Integrated Vincss Single Sign-On (SSO) authentication with robust error handling and session management to enhance security and user experience.\n\nXhero – Dai Nam LMS\n\n* Designed and developed a Moodle-based learning management system (LMS) tailored to client requirements.\n\n* Engaged directly with clients to ensure their needs were clearly understood and effectively implemented.\n\n* Developed an attractive, responsive front-end landing page to provide a user-friendly interface.\n\nMinistry of Culture, Sports and Tourism – VietnamFoodMap\n\n* Developed the VietnamFoodMap module to showcase Vietnam’s rich culinary heritage through interactive maps and engaging user interfaces.\n\n* Delivered a solution that met both functional requirements and cultural preservation goals, ensuring a seamless and immersive user experience.",
-      "attachments": [],
-      "type": "workExperience",
-      "title": "Full-Stack Developer",
-      "company": "TIEN PHONG CDS JSC",
-      "location": "Ho Chi Minh City"
-    },
-    {
-      "id": "Xfnywb4QOsdI81F86gL7",
-      "year": "2023 — 2024",
-      "heading": "Frontend Developer at FPT Polytechnic College of Ho Chi Minh",
-      "url": "https://xuongthuchanh.poly.edu.vn/",
-      "collaborators": [],
-      "description": "Working as a Front-end in the workshop management project at FPT Polytechnic, Ho Chi Minh campus.",
-      "attachments": [],
-      "type": "workExperience",
-      "title": "Frontend Developer",
-      "company": "FPT Polytechnic College of Ho Chi Minh",
-      "location": "Vietnam"
-    }
-  ],
-  "volunteering": [
-    {
-      "id": "vkmSdqQFVQZPgZ2ji24N",
-      "year": "2021 — 2021",
-      "heading": "Volunteer Support for COVID-19 Pandemic Prevention at Youth Union of the Commune",
-      "url": null,
-      "collaborators": [],
-      "description": "Assisted management teams, organized, and inputted necessary information for managing citizens during the COVID-19 pandemic.",
-      "attachments": [],
-      "type": "volunteering",
-      "title": "Volunteer Support for COVID-19 Pandemic Prevention",
-      "organization": "Youth Union of the Commune",
-      "location": "vietnam"
-    }
-  ],
-  "education": [
-    {
-      "id": "zkiVInD9AksfSmyChb9g",
-      "year": "2022 — 2024",
-      "heading": "Associate's Degree, Information Technology at FPT Polytechnic College of Ho Chi Minh",
-      "url": "https://caodang.fpt.edu.vn/fpt-polytechnic-lua-chon-cua-nhung-ban-tre-nang-dong?utm_source=Google&utm_medium=CPC&utm_campaign=CD_FPT&gad_source=1&gclid=CjwKCAiArfauBhApEiwAeoB7qFHAyH5o4geHEvU0QckvHjqOfvZv2HPy_5iVVm87yknkELqYbxlOLBoC6UwQAvD_BwE",
-      "collaborators": [],
-      "description": "* Expertise: web programming, full-stack\n\n* Expected graduation time: June 2024\n\n* GPA: 8.0/10\n\n* Language: English (working adaptable)",
-      "attachments": [],
-      "type": "education",
-      "degree": "Associate's Degree, Information Technology",
-      "school": "FPT Polytechnic College of Ho Chi Minh",
-      "location": "Vietnam"
-    }
-  ],
-  "certifications": [
-    {
-      "id": "Om9vtq8gioHJHdWCo9vZ",
-      "year": "2023",
-      "heading": "The Complete Javascript Course 2023: From Zero to Expert! from Udemy",
-      "url": "https://www.udemy.com/certificate/UC-2d32abe0-df29-4e03-ad84-d5e7f5b43801/",
-      "collaborators": [],
-      "description": "Instructor Jonas Schmedtmann\n\n* Date Sept, 27, 2023\n\n* Length 68.5 total hours\n\nReference Number: 0004",
-      "attachments": [],
-      "type": "certification",
-      "name": "The Complete Javascript Course 2023: From Zero to Expert!",
-      "organization": "Udemy"
-    },
-    {
-      "id": "KPhrkaEDz2zrxhUtQOJ9",
-      "year": "2020",
-      "heading": "Build a Practice Workshop Management System from FPT Polytechnic College of Ho Chi Minh",
-      "url": "https://xuongthuchanh.poly.edu.vn/certificate/PS27184/659a09036f35a0f5f34e3f65",
-      "collaborators": [],
-      "description": "",
-      "attachments": [],
-      "type": "certification",
-      "name": "Build a Practice Workshop Management System",
-      "organization": "FPT Polytechnic College of Ho Chi Minh"
-    }
-  ],
-  "contact": [
-    {
-      "id": "VG6tVsnTZcqXqr3Ad1uS",
-      "platform": "Email",
-      "handle": "danhuy.work@gmail.com",
-      "url": "mailto:danhuy.work@gmail.com"
-    },
-    {
-      "id": "xMTTac5QRoxapttQ6ot2",
-      "platform": "Website",
-      "handle": "portfolioz-lemon.vercel.app",
-      "url": "https://portfolioz-lemon.vercel.app/"
-    },
-    {
-      "id": "MAkNJwEA7RtFAEpL8ViM",
-      "platform": "LinkedIn",
-      "handle": "trannguyendanghuy",
-      "url": "https://linkedin.com/in/trannguyendanghuy"
-    },
-    {
-      "id": "MOsHE9Yq2SCh4xlGjth8",
-      "platform": "GitHub",
-      "handle": "Ethanxcode",
-      "url": "https://github.com/Ethanxcode"
-    }
-  ],
-  "allCollections": [
-    {
-      "name": "Projects",
-      "items": [
-        {
-          "id": "j1pHqiErCnnINW2mF4WD",
-          "year": "2024",
-          "heading": "Block Sign - Contract management platform",
-          "url": "https://block-sign.vercel.app/",
-          "collaborators": [],
-          "description": "Participate in the developer team to build BlockSign, a platform that helps people create, store, and manage contracts transparently, securely, and irrevocably. Utilized Next.js to build the front-end, integrating Shadcn, AceternityUI, TailwindCSS, Lucide, and I18n for a robust UI/UX. Employed Zustand for state management and React Query to fetch data. The backend was built with NestJS, implementing functionalities such as upload and CRUD operations. Collaborated with the team leader to deploy microservices using NestJS through Kafka.\n\nTechnologies stack:\n\n* As front-end: Typescript · Next.js · shadcn · Aceternity UI · Tailwind CSS · Lucide · I18n · Zod.\n\n* As back-end: NestJS · MongoDB · ERD · Blockchain · I18n.\n\n* GitHub · Slack · Agile Web Development · ClickUp · visily.",
-          "attachments": [
-            {
-              "type": "image",
-              "width": 1920,
-              "height": 928,
-              "url": "/content/media/Block-Sign-Contract-management-platform.png"
-            }
-          ],
-          "type": "project",
-          "title": "Block Sign - Contract management platform",
-          "company": ""
-        },
-        {
-          "id": "IDDpLXJqXnA1hfpKZ52Y",
-          "year": "2023",
-          "heading": "Practice Workshop Management website at FPT Polytechnic College of Ho Chi Minh",
-          "url": "https://xuongthuchanh.poly.edu.vn/",
-          "collaborators": [],
-          "description": "Engaged in a software development project for managing workshop activities and student administration.\n\nWork Overview:\n\n* Developed a web application to manage students and activities in a workshop setting.\n\n* Successfully managed more than 15k registered users.\n\n* Built UI and developed logic in Typescript, React, Tailwind CSS, Redux Toolkit, and RTK Query.\n\n* Implemented UI/UX prototype flow.\n\n* Handled design, logic, and app development based on backend APIs.\n\n* Contributed to the completion of the project and its deployment.\n\n* Deliver high-quality user experience and optimize functionalities.\n\nTechnologies: Typescript, React, Tailwind CSS, Redux Toolkit, RTK Query, Github, Trello,...\n\nAdditional Information:\n\n* Worked under the guidance of Workshop Director Nguyen Tri Dinh.\n\n* Handled other ad-hoc tasks as required.\n\nThank you for visiting our project page.",
-          "attachments": [
-            {
-              "type": "image",
-              "width": 4000,
-              "height": 3000,
-              "url": "/content/media/Practice-Workshop-Management-website-at-FPT-Polytechnic-College-of-Ho-Chi-Minh-1.png"
-            },
-            {
-              "type": "image",
-              "width": 2339,
-              "height": 1654,
-              "url": "/content/media/Practice-Workshop-Management-website-at-FPT-Polytechnic-College-of-Ho-Chi-Minh-2.png"
-            }
-          ],
-          "type": "project",
-          "title": "Practice Workshop Management website",
-          "company": "FPT Polytechnic College of Ho Chi Minh"
-        }
-      ]
-    },
-    {
-      "name": "Side Projects",
-      "items": [
-        {
-          "id": "doGTzpWxX8g0pwRxKJCP",
-          "year": "2025",
-          "heading": "Perry Toc Chien – A Seamless Dual Booking Platform at Perry",
-          "url": "https://perry-toc-chien.vercel.app/",
-          "collaborators": [],
-          "description": "Perry Project is a dynamic scheduling platform designed to connect users with their hosts effortlessly. With a focus on user experience and security, the platform offers:\n\n* Dual Booking System: Schedule appointments with your host through an intuitive interface, allowing you to select the perfect time slots from a clear, interactive calendar.\n\n* Secure Login & Email Verification: Users can easily register and log in, with robust email verification to ensure account authenticity and security.\n\n* Easy Deposits via SePay: The integrated SePay payment gateway streamlines the deposit process, making transactions fast, secure, and hassle-free.\n\n* FullCalendar Integration: Leveraging FullCalendar, Perry Project presents a comprehensive and user-friendly view of available time slots, enabling efficient booking management.\n\nFrom registration to appointment confirmation, Perry Project delivers a smooth, transparent experience for both hosts and guests, ensuring every booking is managed with precision and ease.\n\nTechnologies stack:\n\n* As front-end: Typescript · Next.js 15 · React 19 · shadcn · Aceternity UI · Tailwind CSS · Lucide · Zod · NextAuth.\n\n* As back-end: Server Action · PrismaDB.\n\n* GitHub · Vercel.",
-          "attachments": [
-            {
-              "type": "image",
-              "width": 1308,
-              "height": 816,
-              "url": "/content/media/Perry-Toc-Chien-A-Seamless-Dual-Booking-Platform-at-Perry.png"
-            }
-          ],
-          "type": "sideProject",
-          "title": "Perry Toc Chien – A Seamless Dual Booking Platform",
-          "company": "Perry"
-        },
-        {
-          "id": "D5NeaaOphL7pKgiULvn7",
-          "year": "2024",
-          "heading": "Gloria - Digital menu system helps you manage menus easily at FPT Polytechnic College Ho Chi Minh",
-          "url": "https://gloria-alpha.vercel.app/",
-          "collaborators": [],
-          "description": "Gloria is an order system utilizing React and NestJS. The system provides instant order notifications with Socket.io.\\\n\\\nTechnologies stack:\n\n* As front-end: Typescript · React · Tailwind CSS · daisyUi · Redux Toolkit · RTK Query ·  Socket.io ·  Zod.\n\n* As back-end: NestJS · MongoDB · ERD · I18n.\n\n* Github ·  Trello",
-          "attachments": [
-            {
-              "type": "image",
-              "width": 1920,
-              "height": 929,
-              "url": "/content/media/Gloria-Digital-menu-system-helps-you-manage-menus-easily-at-FPT-Polytechnic-College-Ho-Chi-Minh.png"
-            }
-          ],
-          "type": "sideProject",
-          "title": "Gloria - Digital menu system helps you manage menus easily",
-          "company": "FPT Polytechnic College Ho Chi Minh"
-        }
-      ]
-    },
-    {
-      "name": "Awards",
-      "items": [
-        {
-          "id": "kKYCZC4vyNBHjQPsy1SJ",
-          "year": "2023",
-          "heading": "GOLDEN BEE AWARDS FALL from FPT Polytechnic College of Ho Chi Minh",
-          "url": null,
-          "collaborators": [],
-          "description": "The Golden Bee Awards Fall - a ceremony to honor the top 100 outstanding students is an annual event organized by FPT Polytechnic College, Ho Chi Minh campus, at the end of each semester.",
-          "attachments": [],
-          "type": "award",
-          "title": "GOLDEN BEE AWARDS FALL",
-          "presenter": "FPT Polytechnic College of Ho Chi Minh"
-        }
-      ]
-    },
-    {
-      "name": "Work Experience",
-      "items": [
-        {
-          "id": "53fqTSWzAtFm64Xr9OsZ",
-          "year": "2024 — Now",
-          "heading": "Full-Stack Developer at TIEN PHONG CDS JSC",
-          "url": "https://tienphongcorp.com/views/gioi-thieu.html",
-          "collaborators": [],
-          "description": "I have extensive experience in maintaining and enhancing system performance to meet evolving client requirements. By collaborating closely with cross-functional teams, I have designed reliable, scalable API solutions and ensured high availability and responsiveness through rigorous testing and troubleshooting. These efforts have directly improved system functionality and user experience.\n\nOMNI-SERVICE APIs – API Endpoints\n\n* Built and developed PHP-based API endpoints for systems such as Dai Thuan, King Coffee, Mutosi, ePro, and others.\n\n* Optimized APIs to ensure stability, high performance, and scalability.\n\n* Integrated Vincss Single Sign-On (SSO) authentication with robust error handling and session management to enhance security and user experience.\n\nXhero – Dai Nam LMS\n\n* Designed and developed a Moodle-based learning management system (LMS) tailored to client requirements.\n\n* Engaged directly with clients to ensure their needs were clearly understood and effectively implemented.\n\n* Developed an attractive, responsive front-end landing page to provide a user-friendly interface.\n\nMinistry of Culture, Sports and Tourism – VietnamFoodMap\n\n* Developed the VietnamFoodMap module to showcase Vietnam’s rich culinary heritage through interactive maps and engaging user interfaces.\n\n* Delivered a solution that met both functional requirements and cultural preservation goals, ensuring a seamless and immersive user experience.",
-          "attachments": [],
-          "type": "workExperience",
-          "title": "Full-Stack Developer",
-          "company": "TIEN PHONG CDS JSC",
-          "location": "Ho Chi Minh City"
-        },
-        {
-          "id": "Xfnywb4QOsdI81F86gL7",
-          "year": "2023 — 2024",
-          "heading": "Frontend Developer at FPT Polytechnic College of Ho Chi Minh",
-          "url": "https://xuongthuchanh.poly.edu.vn/",
-          "collaborators": [],
-          "description": "Working as a Front-end in the workshop management project at FPT Polytechnic, Ho Chi Minh campus.",
-          "attachments": [],
-          "type": "workExperience",
-          "title": "Frontend Developer",
-          "company": "FPT Polytechnic College of Ho Chi Minh",
-          "location": "Vietnam"
-        }
-      ]
-    },
-    {
-      "name": "Volunteering",
-      "items": [
-        {
-          "id": "vkmSdqQFVQZPgZ2ji24N",
-          "year": "2021 — 2021",
-          "heading": "Volunteer Support for COVID-19 Pandemic Prevention at Youth Union of the Commune",
-          "url": null,
-          "collaborators": [],
-          "description": "Assisted management teams, organized, and inputted necessary information for managing citizens during the COVID-19 pandemic.",
-          "attachments": [],
-          "type": "volunteering",
-          "title": "Volunteer Support for COVID-19 Pandemic Prevention",
-          "organization": "Youth Union of the Commune",
-          "location": "vietnam"
-        }
-      ]
-    },
-    {
-      "name": "Education",
-      "items": [
-        {
-          "id": "zkiVInD9AksfSmyChb9g",
-          "year": "2022 — 2024",
-          "heading": "Associate's Degree, Information Technology at FPT Polytechnic College of Ho Chi Minh",
-          "url": "https://caodang.fpt.edu.vn/fpt-polytechnic-lua-chon-cua-nhung-ban-tre-nang-dong?utm_source=Google&utm_medium=CPC&utm_campaign=CD_FPT&gad_source=1&gclid=CjwKCAiArfauBhApEiwAeoB7qFHAyH5o4geHEvU0QckvHjqOfvZv2HPy_5iVVm87yknkELqYbxlOLBoC6UwQAvD_BwE",
-          "collaborators": [],
-          "description": "* Expertise: web programming, full-stack\n\n* Expected graduation time: June 2024\n\n* GPA: 8.0/10\n\n* Language: English (working adaptable)",
-          "attachments": [],
-          "type": "education",
-          "degree": "Associate's Degree, Information Technology",
-          "school": "FPT Polytechnic College of Ho Chi Minh",
-          "location": "Vietnam"
-        }
-      ]
-    },
-    {
-      "name": "Certifications",
-      "items": [
-        {
-          "id": "Om9vtq8gioHJHdWCo9vZ",
-          "year": "2023",
-          "heading": "The Complete Javascript Course 2023: From Zero to Expert! from Udemy",
-          "url": "https://www.udemy.com/certificate/UC-2d32abe0-df29-4e03-ad84-d5e7f5b43801/",
-          "collaborators": [],
-          "description": "Instructor Jonas Schmedtmann\n\n* Date Sept, 27, 2023\n\n* Length 68.5 total hours\n\nReference Number: 0004",
-          "attachments": [],
-          "type": "certification",
-          "name": "The Complete Javascript Course 2023: From Zero to Expert!",
-          "organization": "Udemy"
-        },
-        {
-          "id": "KPhrkaEDz2zrxhUtQOJ9",
-          "year": "2020",
-          "heading": "Build a Practice Workshop Management System from FPT Polytechnic College of Ho Chi Minh",
-          "url": "https://xuongthuchanh.poly.edu.vn/certificate/PS27184/659a09036f35a0f5f34e3f65",
-          "collaborators": [],
-          "description": "",
-          "attachments": [],
-          "type": "certification",
-          "name": "Build a Practice Workshop Management System",
-          "organization": "FPT Polytechnic College of Ho Chi Minh"
-        }
-      ]
-    },
-    {
-      "name": "Contact",
-      "items": [
-        {
-          "id": "VG6tVsnTZcqXqr3Ad1uS",
-          "platform": "Email",
-          "handle": "danhuy.work@gmail.com",
-          "url": "mailto:danhuy.work@gmail.com"
-        },
-        {
-          "id": "xMTTac5QRoxapttQ6ot2",
-          "platform": "Website",
-          "handle": "portfolioz-lemon.vercel.app",
-          "url": "https://portfolioz-lemon.vercel.app/"
-        },
-        {
-          "id": "MAkNJwEA7RtFAEpL8ViM",
-          "platform": "LinkedIn",
-          "handle": "trannguyendanghuy",
-          "url": "https://linkedin.com/in/trannguyendanghuy"
-        },
-        {
-          "id": "MOsHE9Yq2SCh4xlGjth8",
-          "platform": "GitHub",
-          "handle": "Ethanxcode",
-          "url": "https://github.com/Ethanxcode"
-        }
-      ]
-    }
-  ]
 }

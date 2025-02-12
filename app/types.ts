@@ -1,4 +1,3 @@
-
 interface WindowItem {
   type: string;
   name: string;

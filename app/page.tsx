@@ -1,28 +1,19 @@
-"use client";
+'use client';
 
-import React, {
-  useState,
-  useEffect,
-  useRef,
-  FC,
-  ReactNode,
-  MouseEvent,
-  PointerEvent,
-} from "react";
-import { RichText, combineCollections } from "readcv";
-import { motion, useDragControls, AnimatePresence, useMotionValue } from "framer-motion";
-import "@fontsource/ia-writer-mono/400.css";
-import "@fontsource/ia-writer-mono/700.css";
-import "@fontsource/ia-writer-mono/400-italic.css";
-import "@fontsource/ia-writer-mono/700-italic.css";
-import Desktop from "./components/Desktop";
-import Toolbar from "./components/Toolbar";
-import cv from "./cv";
-import Image from "next/image";
+import React, { useState, useEffect, useRef, FC, ReactNode, MouseEvent, PointerEvent } from 'react';
+import { RichText, combineCollections } from 'readcv';
+import { motion, useDragControls, AnimatePresence, useMotionValue } from 'framer-motion';
+import '@fontsource/ia-writer-mono/400.css';
+import '@fontsource/ia-writer-mono/700.css';
+import '@fontsource/ia-writer-mono/400-italic.css';
+import '@fontsource/ia-writer-mono/700-italic.css';
+import Desktop from './components/Desktop';
+import Toolbar from './components/Toolbar';
+import cv from './cv';
+import Image from 'next/image';
 
 // Các biến này giả lập dữ liệu từ bên ngoài (cv, siteSettings).
 // Nếu có file định nghĩa riêng, bạn có thể import type/interface chi tiết vào thay thế.
-
 
 const App: FC = () => {
   return (
@@ -37,13 +28,13 @@ interface AboutProps {
   // Tuỳ ý định nghĩa thêm nếu muốn
 }
 
-const About: FC<AboutProps> = (props) => {
+const About: FC<AboutProps> = props => {
   return (
     <div className="about">
       <div className="aboutContent">
         <div className="aboutHeader">
           <div className="pfp">
-          <Image src={cv.general.profilePhoto} alt="Profile Photo" layout="fill" objectFit="cover" />
+            <Image src={cv.general.profilePhoto} alt="Profile Photo" layout="fill" objectFit="cover" />
           </div>
           <div>
             <h2>{cv.general.displayName}</h2>
@@ -85,21 +76,5 @@ const About: FC<AboutProps> = (props) => {
     </div>
   );
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 export default App;
