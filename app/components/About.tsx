@@ -2,11 +2,8 @@ import React, { FC } from 'react';
 import cv from '../cv';
 import { RichText } from 'readcv';
 import Image from 'next/image';
-interface AboutProps {
-  // Tuỳ ý định nghĩa thêm nếu muốn
-}
 
-const About: FC<AboutProps> = props => {
+const About: FC = () => {
   return (
     <div className="about">
       <div className="aboutContent">

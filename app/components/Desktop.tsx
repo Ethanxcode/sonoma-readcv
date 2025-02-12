@@ -27,9 +27,7 @@ interface WindowItem {
   track?: any;
 }
 
-interface DesktopProps {}
-
-const Desktop: FC<DesktopProps> = props => {
+const Desktop: FC = () => {
   const [windows, setWindows] = useState<WindowItem[]>([]);
   const [windowOrder, setWindowOrder] = useState<WindowItem[]>([]);
 
